@@ -3,3 +3,4 @@ main.py
 .python-version
 .ansible/.vagrant/
 */library
+.ansible/
