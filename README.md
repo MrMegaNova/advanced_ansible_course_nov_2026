@@ -1,0 +1,1 @@
+# advanced_ansible_course_nov_2026
