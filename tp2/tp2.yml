@@ -1,5 +1,5 @@
 ---
-- name: Installer apache2 et configure la page d'acceuil
+- name: Installer apache2 et configure la page d'accueil
   hosts: all
   become: true
   become_user: root
