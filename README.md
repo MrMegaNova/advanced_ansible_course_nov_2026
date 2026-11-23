@@ -1,1 +1,26 @@
-# advanced_ansible_course_nov_2026
+## Advanced Ansible course
+advencced_ansible_course_nov_2026
+
+
+# Installation avec uv
+
+### Nouveau projet
+```(sh)
+uv init
+uv add ansible ansible-core ansible-lint
+un run ansible --version
+```
+
+### Projet existant
+```(sh)
+uv sync
+un run ansible --version
+```
+
+# Usefull Links
+
+- [Doc ansible](https://docs.ansible.com/)
+
+- [UV](https://docs.astral.sh/uv/getting-started/installation/)
+
+- [Ansible Realease & maintenance](https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html)
