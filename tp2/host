@@ -1,7 +1,7 @@
 [all]
-192.168.121.1 remote_user=root
-192.168.121.7   remote_user=vagrant
-192.168.121.165  remote_user=vagrant
+192.168.121.1 ansible_user=root
+192.168.121.7
+192.168.121.165
 
 [nodes]
 192.168.121.7
