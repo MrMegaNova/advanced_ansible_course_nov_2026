@@ -1,4 +1,5 @@
 uv.lock
 main.py
 .python-version
-.ansible/
+.ansible/.vagrant/
+*/library
