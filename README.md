@@ -24,3 +24,5 @@ un run ansible --version
 - [UV](https://docs.astral.sh/uv/getting-started/installation/)
 
 - [Ansible Realease & maintenance](https://docs.ansible.com/projects/ansible/latest/reference_appendices/release_and_maintenance.html)
+
+- [Ansible facts & magics vars](https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_vars_facts.html)
