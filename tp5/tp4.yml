@@ -4,5 +4,5 @@ vars:
     - vagrant
 
 roles:
-    - geerlingguy.docker
-    - geerlingguy.clamav
+  - geerlingguy.docker
+  - geerlingguy.clamav
