@@ -6,6 +6,6 @@
   become_user: root
 
   tasks:
-    - name: test debug ansible fact
+    - name: Test debug ansible fact
       ansible.builtin.debug:
         msg: "{{ ansible_facts['date_time']['day'] }}"

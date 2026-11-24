@@ -40,7 +40,7 @@
       ansible.builtin.template:
         src: template/index.j2
         dest: /var/www/html/index.html
-        mode: '0644'
+        mode: "0644"
       when: "'apache2' in ansible['packages'] or 'nginx' in ansible_facts.packages"
 
     - name: Start apache2
@@ -54,4 +54,3 @@
         name: nginx
         state: started
       when: "'nginx' in ansible_facts.packages"
-
