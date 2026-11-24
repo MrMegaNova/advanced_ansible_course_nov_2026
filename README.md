@@ -45,6 +45,8 @@ un run ansible --version
 
 - [Import playbook](https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/import_playbook_module.html)
 
+- [Ansible lint](https://docs.ansible.com/projects/lint/)
+
 #### Modules: 
 
 - [Module lineinfile](https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/lineinfile_module.html)
