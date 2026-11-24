@@ -36,3 +36,14 @@ un run ansible --version
 - [Use ansible filters](https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_filters.html)
 
 - [Ansible filters list](https://docs.ansible.com/projects/ansible/2.9/user_guide/playbooks_filters.html)
+
+- [Ansible role](https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_reuse_roles.html)
+
+
+#### Modules: 
+
+- [Module lineinfile](https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/lineinfile_module.html)
+
+- [Module apt](https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/apt_module.html)
+
+- [Package facts](https://docs.ansible.com/projects/ansible/3/collections/ansible/builtin/package_facts_module.html)% 
