@@ -35,7 +35,7 @@ un run ansible --version
 
 - [Use ansible filters](https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_filters.html)
 
-- [Ansible filters list](https://docs.ansible.com/projects/ansible/2.9/user_guide/playbooks_filters.html)
+- [Ansible filters list](https://docs.ansible.com/projects/ansible/latest/user_guide/playbooks_filters.html)
 
 - [Ansible role](https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_reuse_roles.html)
 
