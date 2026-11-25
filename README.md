@@ -47,8 +47,18 @@ un run ansible --version
 
 - [Ansible lint](https://docs.ansible.com/projects/lint/)
 
-
 - [Retry](https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_loops.html#retrying-a-task-until-a-condition-is-met)
+
+- [Vars precedence](https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_variables.html#understanding-variable-precedence)
+
+- [Molecule](https://docs.ansible.com/projects/molecule/)
+
+- [Delegation](https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_delegation.html)
+
+- [Block](https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_blocks.html)
+
+- [Speed up ansible runtime - mitogen](https://mitogen.networkgenomics.com/ansible_detailed.html)
+
 
 #### Modules: 
 
