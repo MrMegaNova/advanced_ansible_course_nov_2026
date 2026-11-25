@@ -47,10 +47,17 @@ un run ansible --version
 
 - [Ansible lint](https://docs.ansible.com/projects/lint/)
 
+
+- [Retry](https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_loops.html#retrying-a-task-until-a-condition-is-met)
+
 #### Modules: 
 
 - [Module lineinfile](https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/lineinfile_module.html)
 
 - [Module apt](https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/apt_module.html)
 
+- [Assert](https://docs.ansible.com/projects/ansible/latest/collections/ansible/builtin/assert_module.html)
+
 - [Package facts](https://docs.ansible.com/projects/ansible/3/collections/ansible/builtin/package_facts_module.html)% 
+
+- [Async](https://docs.ansible.com/projects/ansible/latest/playbook_guide/playbooks_async.html)
