@@ -5,6 +5,7 @@
   become_user: root
 
   vars_files:
+    - vaults/db_secret.yml
     - vars/main.yml
 
   roles:

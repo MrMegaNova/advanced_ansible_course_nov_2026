@@ -5,7 +5,7 @@
   become_user: root
 
   vars_files:
-    # - vaults/db_secret.yml
+    - vaults/db_secret.yml
     - vars/main.yml
 
   roles:
@@ -37,6 +37,7 @@
     - name: Get random salt for wp-config.php
       ansible.builtin.set_fact:
         salt: "{{ lookup('ansible.builtin.url', 'https://api.wordpress.org/secret-key/1.1/salt/') | replace(';,', ';\n') }}"
+      no_log: true
       tags: salt
 
     - name: Configure wordpress wp-config.php
@@ -44,4 +45,5 @@
         src: template/wp-config.j2
         dest: /var/www/wordpress/wp-config.php
         mode: '0644'
+      no_log: true
       tags: salt
